@@ -13,7 +13,7 @@ import com.intuit.fuzzymatcher.domain.ElementType;
 import com.intuit.fuzzymatcher.domain.Match;
 
 /**
- * Hello world!
+ * main class to run fuzzy match.
  *
  */
 public class App 
@@ -27,7 +27,11 @@ public class App
        
       
        }
-    
+    /**
+    * if we need to match non english words then set value as follow 
+    * .setValue(URLEncoder.encode("manzarul","UTF-8")
+    */
+	
     
     public static List<Document> getDocList () {
     	 List<Document> docList = new ArrayList<Document>();
